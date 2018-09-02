@@ -16,6 +16,9 @@
 		3725D503213C770C0049484C /* DrawingKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725D502213C770C0049484C /* DrawingKit.swift */; };
 		3725D506213C774A0049484C /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725D505213C774A0049484C /* UIKit.swift */; };
 		3725D508213C7CBD0049484C /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725D507213C7CBD0049484C /* DrawingView.swift */; };
+		3725D50A213C850B0049484C /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725D509213C850B0049484C /* Point.swift */; };
+		3725D50C213C85120049484C /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725D50B213C85120049484C /* Line.swift */; };
+		3725D50E213C851E0049484C /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725D50D213C851E0049484C /* Arc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		3725D502213C770C0049484C /* DrawingKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingKit.swift; sourceTree = "<group>"; };
 		3725D505213C774A0049484C /* UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
 		3725D507213C7CBD0049484C /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		3725D509213C850B0049484C /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		3725D50B213C85120049484C /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3725D50D213C851E0049484C /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				3725D502213C770C0049484C /* DrawingKit.swift */,
+				3725D509213C850B0049484C /* Point.swift */,
+				3725D50B213C85120049484C /* Line.swift */,
+				3725D50D213C851E0049484C /* Arc.swift */,
 				3725D505213C774A0049484C /* UIKit.swift */,
 			);
 			path = DrawingKit;
@@ -216,8 +225,11 @@
 			files = (
 				3725D506213C774A0049484C /* UIKit.swift in Sources */,
 				3725D503213C770C0049484C /* DrawingKit.swift in Sources */,
+				3725D50E213C851E0049484C /* Arc.swift in Sources */,
+				3725D50A213C850B0049484C /* Point.swift in Sources */,
 				3725D508213C7CBD0049484C /* DrawingView.swift in Sources */,
 				3725D4E5213C76F40049484C /* ViewController.swift in Sources */,
+				3725D50C213C85120049484C /* Line.swift in Sources */,
 				3725D4E3213C76F40049484C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
